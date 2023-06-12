@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\bin\Debug\net6.0\ByteBankArray.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\bin\Debug\net6.0\ByteBankArray.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\bin\Debug\net6.0\ByteBankArray.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\bin\Debug\net6.0\ByteBankArray.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\bin\Debug\net6.0\ByteBankArray.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\refint\ByteBankArray.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ByteBankArray.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ByteBankArray\obj\Debug\net6.0\ref\ByteBankArray.dll
