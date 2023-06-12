@@ -1,0 +1,5 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ArraysTiposGenericos\obj\Debug\net6.0\ArraysTiposGenericos.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ArraysTiposGenericos\obj\Debug\net6.0\ArraysTiposGenericos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ArraysTiposGenericos\obj\Debug\net6.0\ArraysTiposGenericos.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ArraysTiposGenericos\obj\Debug\net6.0\ArraysTiposGenericos.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\Arrays-e-Tipos-Genericos\ArraysTiposGenericos\obj\Debug\net6.0\ArraysTiposGenericos.csproj.CoreCompileInputs.cache
