@@ -117,6 +117,18 @@ namespace ByteBankArrays.Modelos.Conta
         {
             return $"Número da conta: {Numero}\nAgência: {Agencia}\nSaldo: {Saldo}";
         }
+
+        public override bool Equals(object? obj)
+        {
+            ContaCorrente outraConta = obj as ContaCorrente;
+
+            if(outraConta == null)
+            {
+                return false;
+            }         
+
+            return Numero == outraConta.Numero && Agencia == outraConta.Agencia;
+        }
     }
 }
 
