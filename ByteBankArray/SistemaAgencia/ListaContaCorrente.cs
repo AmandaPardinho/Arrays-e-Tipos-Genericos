@@ -7,9 +7,12 @@ namespace ByteBankArray.SistemaAgencia
         private ContaCorrente[] _itens;
         private int _proximaPosicao;
 
-        public ListaContaCorrente()
+        /* argumentos opcionais => são parâmetros que possuem um valor pré-definido na sobrecarga do método ou construtor
+         * para mudar o valor de um argumento opcional basta que, ao chamar o método ao qual ele pertence, seja colocado o nome do argumento + : + novo valor (por exemplo método meuMetodo(string texto = "oi", int numero = 5) => meuMetodo(numero:5))
+         */
+        public ListaContaCorrente(int capacidadeInicial = 5)
         {
-            _itens = new ContaCorrente[5];
+            _itens = new ContaCorrente[capacidadeInicial];
             _proximaPosicao = 0;
         }
 
@@ -31,9 +34,15 @@ namespace ByteBankArray.SistemaAgencia
                 return;
             }
 
+            int novoTamanho = _itens.Length * 2;
+            if(novoTamanho < tamanhoNecessario)
+            {
+                novoTamanho = tamanhoNecessario;
+            }
+
             Console.WriteLine("Aumentando a capacidade da lista!\n");
 
-            ContaCorrente[] novoArray = new ContaCorrente[tamanhoNecessario];
+            ContaCorrente[] novoArray = new ContaCorrente[novoTamanho];
 
             for (int i = 0; i < _itens.Length; i++)
             {
