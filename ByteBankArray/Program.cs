@@ -13,6 +13,7 @@ namespace ByteBankArrays
         static void Main(string[] args)
         {
             ListaContaCorrente lista = new ListaContaCorrente();
+
             lista.Adicionar(new ContaCorrente(874, 5679787));
             lista.Adicionar(new ContaCorrente(874, 4456668));
             lista.Adicionar(new ContaCorrente(874, 7781438));
@@ -22,6 +23,17 @@ namespace ByteBankArrays
             lista.Adicionar(new ContaCorrente(874, 5679755));
             lista.Adicionar(new ContaCorrente(874, 3156298));
             lista.Adicionar(new ContaCorrente(874, 7481266));
+
+            ContaCorrente conta = new ContaCorrente(023, 0000001);
+            lista.Adicionar(conta);
+            Console.WriteLine("Conta 'conta' foi adicionada");
+            Console.WriteLine();
+            lista.EscreverListaNaTela();
+            Console.WriteLine();
+            lista.Remover(conta);
+            Console.WriteLine("Conta 'conta' foi removida");
+            Console.WriteLine();
+            lista.EscreverListaNaTela();
 
             Console.ReadKey();
         }
