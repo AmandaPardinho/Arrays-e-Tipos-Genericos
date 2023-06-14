@@ -34,6 +34,13 @@ namespace ByteBankArrays
             Console.WriteLine("Conta 'conta' foi removida");
             Console.WriteLine();
             lista.EscreverListaNaTela();
+            Console.WriteLine();
+
+            for (int i = 0; i < lista.Tamanho; i++)
+            {
+                ContaCorrente novoItem = lista.GetItemNoIndice(i);
+                Console.WriteLine($"Item na posição {i} = Conta {novoItem.Numero}/{novoItem.Agencia}\n");
+            }
 
             Console.ReadKey();
         }
