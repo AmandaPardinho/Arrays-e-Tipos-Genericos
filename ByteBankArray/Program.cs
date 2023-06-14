@@ -12,6 +12,24 @@ namespace ByteBankArrays
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(SomarVarios(1, 2, 3, 5, 56465, 45));
+            Console.WriteLine(SomarVarios(1, 2, 45));
+
+            Console.ReadKey();
+        }
+
+        static int SomarVarios(params int[] numeros)
+        {
+            int acumulador = 0;
+            foreach (int numero in numeros) 
+            {
+                acumulador += numero;
+            }
+            return acumulador;
+        }
+
+        static void TestaListaDeConta()
+        {
             ListaContaCorrente lista = new ListaContaCorrente();
 
             lista.Adicionar(new ContaCorrente(874, 5679787));
@@ -42,7 +60,27 @@ namespace ByteBankArrays
                 Console.WriteLine($"Item na posição {i} = Conta {novoItem.Numero}/{novoItem.Agencia}\n");
             }
 
-            Console.ReadKey();
+            ContaCorrente[] contasParaAdicionar = new ContaCorrente[]
+            {
+                new ContaCorrente(874, 7781438),
+                new ContaCorrente(874, 3379781),
+                new ContaCorrente(874, 1056228),
+                new ContaCorrente(874, 8881432),
+                new ContaCorrente(874, 5679755),
+                new ContaCorrente(874, 3156298),
+                new ContaCorrente(874, 7481266)
+            };
+
+            lista.AdicionarVarios(contasParaAdicionar);
+            lista.AdicionarVarios(
+                new ContaCorrente(874, 7781438),
+                new ContaCorrente(874, 3379781),
+                new ContaCorrente(874, 1056228),
+                new ContaCorrente(874, 8881432),
+                new ContaCorrente(874, 5679755),
+                new ContaCorrente(874, 3156298),
+                new ContaCorrente(874, 7481266)
+                );
         }
 
         static void TestaArrayContaCorrente()
