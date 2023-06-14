@@ -103,10 +103,8 @@ namespace ByteBankArray.SistemaAgencia
             _itens = novoArray;            
         }
 
-        /* params => recurso do C# que permite que um determinado método seja chamado com vários argumentos;
-         * 
-         */      
-
+        /* params => recurso do C# que permite que um determinado método seja chamado com um número variável de argumentos;
+        */
         public void AdicionarVarios(params ContaCorrente[] itens)
         {
             foreach(ContaCorrente conta in itens)  
