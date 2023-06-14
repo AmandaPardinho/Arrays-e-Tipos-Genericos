@@ -17,6 +17,13 @@ namespace ByteBankArrays
             idades.Adicionar(5);
             idades.AdicionarVarios(1, 5, 78);
 
+            int idadeSoma = 0;
+            for(int i = 0; i < idades.Tamanho; i++)
+            {
+                int idadeAtual = idades[i];
+                Console.WriteLine(idadeAtual);
+            }
+
             Console.WriteLine(SomarVarios(1, 2, 3, 5, 56465, 45));
             Console.WriteLine(SomarVarios(1, 2, 45));
 
