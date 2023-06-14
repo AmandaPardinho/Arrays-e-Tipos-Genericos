@@ -12,6 +12,19 @@ namespace ByteBankArrays
     {
         static void Main(string[] args)
         {
+            ListaObject listaIdades = new ListaObject();
+
+            listaIdades.Adicionar(10);
+            listaIdades.Adicionar(5);
+            listaIdades.Adicionar(4);
+            listaIdades.AdicionarVarios(16, 23, 60);
+
+            for(int i = 0; i < listaIdades.Tamanho; i++)
+            {
+                int idade = (int) listaIdades[i];
+                Console.WriteLine($"Idade no índice {i}: {idade} anos");
+            }
+
             Console.WriteLine(SomarVarios(1, 2, 3, 5, 56465, 45));
             Console.WriteLine(SomarVarios(1, 2, 45));
 
