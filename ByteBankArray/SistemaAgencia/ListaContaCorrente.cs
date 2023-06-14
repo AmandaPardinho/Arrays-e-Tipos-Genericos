@@ -7,6 +7,14 @@ namespace ByteBankArray.SistemaAgencia
         private ContaCorrente[] _itens;
         private int _proximaPosicao;
 
+        public int Tamanho 
+        {
+            get 
+            {
+                return _proximaPosicao;
+            }
+        }
+
         /* argumentos opcionais => são parâmetros que possuem um valor pré-definido na sobrecarga do método ou construtor
          * para mudar o valor de um argumento opcional basta que, ao chamar o método ao qual ele pertence, seja colocado o nome do argumento + : + novo valor (por exemplo método meuMetodo(string texto = "oi", int numero = 5) => meuMetodo(numero:5))
          */
@@ -57,6 +65,16 @@ namespace ByteBankArray.SistemaAgencia
                 Console.WriteLine(conta);
             }
         }
+
+        public ContaCorrente GetItemNoIndice(int indice)
+        {
+            if(indice < 0 || indice >= _proximaPosicao)
+            {
+                throw new ArgumentOutOfRangeException(nameof(indice));
+            }
+
+            return _itens[indice];
+        }
         
 
         private void VerificarCapacidade(int tamanhoNecessario)
@@ -83,6 +101,14 @@ namespace ByteBankArray.SistemaAgencia
             }
 
             _itens = novoArray;            
+        }
+
+        public ContaCorrente this[int indice]
+        {
+            get
+            {
+                return _itens[indice];
+            }
         }
     }
 }
