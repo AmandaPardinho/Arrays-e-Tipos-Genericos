@@ -103,11 +103,33 @@ namespace ByteBankArray.SistemaAgencia
             _itens = novoArray;            
         }
 
-        public ContaCorrente this[int indice]
+        /* params => recurso do C# que permite que um determinado método seja chamado com vários argumentos;
+         * 
+         */      
+
+        public void AdicionarVarios(params ContaCorrente[] itens)
         {
+            foreach(ContaCorrente conta in itens)  
+            {
+                Adicionar(conta);
+            }
+        }
+
+        public ContaCorrente this[string texto]
+        {
+            //indexador
             get
             {
-                return _itens[indice];
+                return null;
+            }
+        }
+
+        public ContaCorrente this[int indice]
+        {
+            //indexador
+            get
+            {
+                return GetItemNoIndice(indice);
             }
         }
     }
